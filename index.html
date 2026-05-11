@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio — Badis Haddadi | BTS SIO</title>
+    <meta name="description" content="Portfolio de Badis Haddadi — BTS SIO SLAM/SISR, projets web, compétences et veille technologique.">
+    <meta name="theme-color" content="#0a0a0a">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Portfolio — Badis Haddadi">
+    <meta property="og:description" content="Étudiant BTS SIO — développement web, réseaux et veille techno.">
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<a class="skip-link" href="#accueil">Aller au contenu</a>
+<button type="button" class="nav-toggle" aria-label="Ouvrir ou fermer le menu" aria-expanded="false" aria-controls="site-sidebar">
+    <span class="nav-toggle__bar" aria-hidden="true"></span>
+    <span class="nav-toggle__bar" aria-hidden="true"></span>
+    <span class="nav-toggle__bar" aria-hidden="true"></span>
+</button>
+<div class="nav-backdrop" aria-hidden="true" inert></div>
+
+<div class="main-container">
+    <nav class="sidebar-nav" id="site-sidebar">
+        <a class="navbar-brand" href="#accueil">BADIS HADDADI</a>
+        <div class="nav-links">
+            <a class="nav-link" href="#accueil"><i class="fas fa-home me-2"></i>Accueil</a>
+            <a class="nav-link" href="#presentation"><i class="fas fa-user me-2"></i>Présentation</a>
+            <a class="nav-link" href="#bts-sio"><i class="fas fa-graduation-cap me-2"></i>BTS SIO</a>
+            <a class="nav-link" href="#projets"><i class="fas fa-project-diagram me-2"></i>Projets</a>
+            <a class="nav-link" href="#documents"><i class="fas fa-file-alt me-2"></i>Expériences</a>
+            <a class="nav-link" href="#synthese"><i class="fas fa-table me-2"></i>Tableau de synthèse</a>
+            <a class="nav-link" href="#certifications"><i class="fas fa-certificate me-2"></i>Certifications</a>
+            <a class="nav-link" href="#veille"><i class="fas fa-eye me-2"></i>Veille</a>
+            <a class="nav-link" href="#contact"><i class="fas fa-envelope me-2"></i>Contact</a>
+        </div>
+    </nav>
+
+    <div class="content-wrapper">
+
+        <!-- ACCUEIL -->
+        <section id="accueil" class="hero-section hero-section--fullscreen" aria-label="Accueil">
+            <div class="hero-content hero-content--fullscreen animate-bounce">
+                <img src="images/badis.jpg" alt="Portrait de Badis Haddadi" class="profile-pic" width="160" height="160" fetchpriority="high">
+                <div class="hero-title">
+                    <h1>Badis Haddadi</h1>
+                    <h2>Portfolio étudiant</h2>
+                    <p>BTS SIO | Développement &amp; réseaux</p>
+                </div>
+                <div class="hero-actions">
+                    <a href="cv-badis-haddadi.pdf" target="_blank" rel="noopener" class="btn btn-custom">
+                        <i class="fas fa-file-pdf" aria-hidden="true"></i> Mon CV
+                    </a>
+                    <a href="https://www.linkedin.com/in/badis-haddadi" target="_blank" rel="noopener noreferrer" class="btn btn-custom">
+                        <i class="fab fa-linkedin" aria-hidden="true"></i> LinkedIn
+                    </a>
+                    <a href="mailto:badis.haddadi@yahoo.fr" class="btn btn-custom">
+                        <i class="fas fa-envelope" aria-hidden="true"></i> Email
+                    </a>
+                    <a href="https://github.com/BadisProjet" class="btn btn-custom btn-custom--github" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-github" aria-hidden="true"></i> GitHub
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- PRÉSENTATION -->
+        <section id="presentation" class="section-padding animate-fade">
+            <div class="text-center w-100">
+                <div class="section-title">
+                    <h2>Présentation</h2>
+                </div>
+            </div>
+            <div class="container">
+                <p class="text-center mx-auto" style="max-width: 800px;">
+                    Étudiant en BTS SIO, je me spécialise en développement web (SLAM) et en réseaux (SISR).
+                    Passionné par la cybersécurité et les technologies modernes, je réalise des projets pour approfondir mes compétences.
+                </p>
+            </div>
+        </section>
+
+        <!-- BTS SIO -->
+        <section id="bts-sio" class="section-padding animate-fade">
+            <div class="text-center w-100">
+                <div class="section-title">
+                    <h2>BTS SIO</h2>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row g-4 align-items-stretch">
+                    <div class="col-md-6">
+                        <div class="card card-portfolio card-portfolio--featured h-100 position-relative">
+                            <span class="card-portfolio__ribbon" aria-hidden="true">Ma spécialité</span>
+                            <div class="card-body">
+                                <h4 class="card-title">SLAM</h4>
+                                <p class="card-text mb-0">
+                                    Développement d'applications web/mobile avec Python, PHP, SQL.
+                                    Création de solutions logicielles sur mesure.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card card-portfolio card-portfolio--sisr h-100">
+                            <div class="card-body">
+                                <h4 class="card-title">SISR</h4>
+                                <p class="card-text mb-0">
+                                    Gestion de serveurs, configuration réseau et cybersécurité.
+                                    Utilisation de Cisco Packet Tracer et Linux.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PROJETS -->
+        <section id="projets" class="section-padding animate-fade">
+            <div class="text-center w-100">
+                <div class="section-title">
+                    <h2>Projets</h2>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row g-4">
+
+                    <!-- Projet 1 -->
+                    <div class="col-md-4">
+                        <div class="card card-portfolio h-100">
+                            <div class="card-body">
+                                <h4 class="card-title">Site Langages Web</h4>
+                                <p class="card-text">Site explicatif sur HTML/CSS/JS, responsive et accessible.</p>
+                                <div class="d-flex flex-wrap gap-2">
+                                    <a href="https://badisprojet.github.io/site_langages_web/" target="_blank" rel="noopener" class="btn btn-custom mt-2"><i class="fas fa-globe"></i> Site Web</a>
+                                    <a href="https://github.com/BadisProjet/site_langages_web" target="_blank" rel="noopener" class="btn btn-custom mt-2"><i class="fas fa-code"></i> Code source</a>
+                                    <a href="https://github.com/BadisProjet/site_langages_web/blob/main/readme.md" target="_blank" rel="noopener" class="btn btn-custom mt-2"><i class="fas fa-book"></i> Documentation</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Projet 2 -->
+                    <div class="col-md-4">
+                        <div class="card card-portfolio h-100">
+                            <div class="card-body">
+                                <h4 class="card-title">CV en ligne</h4>
+                                <p class="card-text">CV interactif et moderne en site vitrine, développé en HTML/CSS/JS.</p>
+                                <div class="d-flex flex-wrap gap-2">
+                                    <a href="https://badisprojet.github.io/cv/" target="_blank" rel="noopener" class="btn btn-custom mt-2"><i class="fas fa-globe"></i> Site Web</a>
+                                    <a href="https://github.com/BadisProjet/cv" target="_blank" rel="noopener" class="btn btn-custom mt-2"><i class="fas fa-code"></i> Code source</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Projet 3 -->
+                    <div class="col-md-4">
+                        <div class="card card-portfolio h-100">
+                            <div class="card-body">
+                                <h4 class="card-title">Site Immobilier</h4>
+                                <p class="card-text">Site dynamique avec PHP/MySQL, gestion de base de données.</p>
+                                <div class="d-flex flex-wrap gap-2">
+                                    <a href="http://localhost/immo/" target="_blank" rel="noopener" class="btn btn-custom mt-2"><i class="fas fa-globe"></i> Site Web</a>
+                                    <a href="https://github.com/BadisProjet/immo" target="_blank" rel="noopener" class="btn btn-custom mt-2"><i class="fas fa-code"></i> Code source</a>
+                                    <a href="https://github.com/BadisProjet/immo/blob/main/README.md" target="_blank" rel="noopener" class="btn btn-custom mt-2"><i class="fas fa-book"></i> Documentation</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Projet 4 -->
+                    <div class="col-md-4">
+                        <div class="card card-portfolio h-100">
+                            <div class="card-body">
+                                <h4 class="card-title">Site de gestion Auto-école</h4>
+                                <p class="card-text">Application de gestion pour auto-école en client léger (authentification, gestion, interaction et visualisation).</p>
+                                <div class="d-flex flex-wrap gap-2">
+                                    <a href="https://github.com/BadisProjet/totoecole" target="_blank" rel="noopener" class="btn btn-custom mt-2"><i class="fas fa-code"></i> Code source</a>
+                                    <a href="https://github.com/BadisProjet/totoecole/blob/main/README.md" target="_blank" rel="noopener" class="btn btn-custom mt-2"><i class="fas fa-book"></i> Documentation</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Projet 5 -->
+                    <div class="col-md-4">
+                        <div class="card card-portfolio h-100">
+                            <div class="card-body">
+                                <h4 class="card-title">DJ Snake (jeu C)</h4>
+                                <p class="card-text">Jeu Snake revisité dans le Shell, programmé en C.</p>
+                                <div class="d-flex flex-wrap gap-2">
+                                    <a href="https://github.com/BadisProjet/jeudjsnake" target="_blank" rel="noopener" class="btn btn-custom mt-2"><i class="fas fa-code"></i> Code source</a>
+                                    <a href="https://github.com/BadisProjet/jeudjsnake/blob/main/README.md" target="_blank" rel="noopener" class="btn btn-custom mt-2"><i class="fas fa-book"></i> Documentation</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- EXPÉRIENCES -->
+        <section id="documents" class="section-padding animate-fade">
+            <div class="text-center w-100">
+                <div class="section-title">
+                    <h2>Expériences</h2>
+                </div>
+            </div>
+            <div class="container">
+                <table class="table table-dark table-striped mx-auto" style="max-width: 800px;">
+                    <thead>
+                        <tr>
+                            <th>Poste</th>
+                            <th>Entreprise</th>
+                            <th>Détails</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Job étudiant - Vendeur Assistant II</td>
+                            <td>Picard (Paris)</td>
+                            <td>Caisse, commandes, mise en rayon</td>
+                        </tr>
+                        <tr>
+                            <td>Stage de 3ème</td>
+                            <td>Adomik (Paris 2ème)</td>
+                            <td>Analyse données, Excel, découverte de la vie entreprise</td>
+                        </tr>
+                        <tr>
+                            <td>Stages de BTS - IT et SI</td>
+                            <td>Akkodis</td>
+                            <td>Participations à des projets, Interactions dans des projets Python, utilisation d'API's LLM dans ces projets</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- TABLEAU DE SYNTHÈSE -->
+        <section id="synthese" class="section-padding animate-fade">
+            <div class="text-center w-100">
+                <div class="section-title">
+                    <h2>Tableau de synthèse</h2>
+                </div>
+            </div>
+            <div class="container">
+                <div class="skills-list mx-auto">
+
+                    <div class="skill-item">
+                        <div class="skill-item__header">
+                            <span class="skill-item__name">HTML/CSS</span>
+                            <span class="skill-item__badge skill-item__badge--intermediaire">Intermédiaire</span>
+                        </div>
+                        <div class="skill-item__track" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="70" aria-label="Niveau Intermédiaire pour HTML/CSS">
+                            <div class="skill-item__fill skill-item__fill--intermediaire" style="width: 70%;"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-item">
+                        <div class="skill-item__header">
+                            <span class="skill-item__name">JavaScript</span>
+                            <span class="skill-item__badge skill-item__badge--debutant">Débutant</span>
+                        </div>
+                        <div class="skill-item__track" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="25" aria-label="Niveau Débutant pour JavaScript">
+                            <div class="skill-item__fill skill-item__fill--debutant" style="width: 25%;"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-item">
+                        <div class="skill-item__header">
+                            <span class="skill-item__name">PHP/MySQL</span>
+                            <span class="skill-item__badge skill-item__badge--notions">Notions</span>
+                        </div>
+                        <div class="skill-item__track" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="45" aria-label="Niveau Notions pour PHP/MySQL">
+                            <div class="skill-item__fill skill-item__fill--notions" style="width: 45%;"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-item">
+                        <div class="skill-item__header">
+                            <span class="skill-item__name">C</span>
+                            <span class="skill-item__badge skill-item__badge--debutant">Débutant</span>
+                        </div>
+                        <div class="skill-item__track" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="25" aria-label="Niveau Débutant pour C">
+                            <div class="skill-item__fill skill-item__fill--debutant" style="width: 25%;"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-item">
+                        <div class="skill-item__header">
+                            <span class="skill-item__name">Python</span>
+                            <span class="skill-item__badge skill-item__badge--notions">Notions</span>
+                        </div>
+                        <div class="skill-item__track" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="45" aria-label="Niveau Notions pour Python">
+                            <div class="skill-item__fill skill-item__fill--notions" style="width: 45%;"></div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- CERTIFICATIONS -->
+        <section id="certifications" class="section-padding animate-fade">
+            <div class="text-center w-100">
+                <div class="section-title">
+                    <h2>Certifications</h2>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row g-4 justify-content-center">
+
+                    <div class="col-md-6">
+                        <div class="card card-portfolio h-100">
+                            <div class="card-body text-center">
+                                <h4 class="card-title">Certification Cybersécurité Notions</h4>
+                                <p class="card-text">Délivré par : Adecco</p>
+                                <div class="mb-3">
+                                    <span class="badge bg-success">Obtenue</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="card card-portfolio h-100">
+                            <div class="card-body text-center">
+                                <h4 class="card-title">Certification PIX</h4>
+                                <p class="card-text">Délivré par : PIX</p>
+                                <div class="mb-3">
+                                    <span class="badge bg-success">Obtenue</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- VEILLE -->
+        <section id="veille" class="section-padding animate-fade">
+            <div class="text-center w-100">
+                <div class="section-title">
+                    <h2>Veille technologique</h2>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row g-4 justify-content-center">
+
+                    <!-- Veille 1 -->
+                    <div class="col-lg-10 col-xl-8">
+                        <article class="card card-portfolio veille-card h-100 overflow-hidden">
+                            <div class="veille-card__media">
+                                <img src="uploads/veille/2cc618c68d32492d.webp" alt="Illustration : Avancées de l'IA" class="veille-card__img" loading="lazy" width="800" height="420">
+                            </div>
+                            <div class="card-body">
+                                <h3 class="card-title text-start">Avancées de l'IA</h3>
+                                <p class="small text-secondary mb-2"><time datetime="2026-04-14">14/04/2026</time></p>
+                                <div class="veille-card__body card-text text-start">
+                                    En 2026, nous passons de la simple IA générative à l'IA « agentique ». Il ne s'agit plus seulement de générer du texte, mais de déployer des agents autonomes capables de prendre des décisions, de se corriger et d'interagir avec d'autres systèmes. Pour un développeur, cela signifie que notre rôle évolue vers l'orchestration et la sécurisation de ces agents intelligents via des API.
+                                </div>
+                                <div class="d-flex flex-wrap gap-2 mt-3">
+                                    <a href="https://avenuedelia.com/fr/actu/anthropic-acquiert-vercept-claude-pourra-bientot-utiliser-votre-pc-comme-un-humain/" class="btn btn-custom btn-sm" target="_blank" rel="noopener noreferrer">Anthropic acquiert Vercept</a>
+                                    <a href="https://www.lemonde.fr/pixels/article/2026/04/12/openclaw-cet-agent-ia-autonome-qui-agite-la-silicon-valley_6679530_4408996.html" class="btn btn-custom btn-sm" target="_blank" rel="noopener noreferrer">OpenClaw, agent IA autonome</a>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+
+                    <!-- Veille 2 -->
+                    <div class="col-lg-10 col-xl-8">
+                        <article class="card card-portfolio veille-card h-100 overflow-hidden">
+                            <div class="veille-card__media">
+                                <img src="uploads/veille/7bc388b0d3a885ec.jpg" alt="Illustration : Actualité High-Tech" class="veille-card__img" loading="lazy" width="800" height="420">
+                            </div>
+                            <div class="card-body">
+                                <h3 class="card-title text-start">Actualité High-Tech</h3>
+                                <p class="small text-secondary mb-2"><time datetime="2026-04-14">14/04/2026</time></p>
+                                <div class="veille-card__body card-text text-start">
+                                    La grande tendance hardware de 2026 est l'Edge AI : l'intégration de puces dédiées (NPU) pour faire tourner l'IA directement sur nos appareils, sans passer par le Cloud. Apple l'illustre parfaitement avec iOS 26 et son Foundation Models framework, qui permet à Apple Intelligence de tourner en local. En développement logiciel, cela nous pousse vers des architectures hybrides, plus rapides et respectueuses de la vie privée (Privacy by Design).
+                                </div>
+                                <div class="d-flex flex-wrap gap-2 mt-3">
+                                    <a href="https://itrnews.com/articles/209313/intel-renouvelle-sa-gamme-professionnelle-avec-les-core-ultra-serie-3-vpro-et-des-gpu-arc-pro-tailles-pour-lia.html" class="btn btn-custom btn-sm" target="_blank" rel="noopener noreferrer">Intel Core Ultra Série 3</a>
+                                    <a href="https://www.lesnumeriques.com/telephone-portable/ios-27-tout-savoir-sur-le-nouveau-siri-booste-a-l-ia-nouveaute-principale-a-venir-sur-l-iphone-n254193.html" class="btn btn-custom btn-sm" target="_blank" rel="noopener noreferrer">iOS 27 et le nouveau Siri</a>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+
+                    <!-- Veille 3 -->
+                    <div class="col-lg-10 col-xl-8">
+                        <article class="card card-portfolio veille-card h-100 overflow-hidden">
+                            <div class="veille-card__media">
+                                <img src="uploads/veille/187c2db0631dd631.jpg" alt="Illustration : Pénurie de silicium" class="veille-card__img" loading="lazy" width="800" height="420">
+                            </div>
+                            <div class="card-body">
+                                <h3 class="card-title text-start">Pénurie de silicium</h3>
+                                <p class="small text-secondary mb-2"><time datetime="2026-04-14">14/04/2026</time></p>
+                                <div class="veille-card__body card-text text-start">
+                                    Si la pénurie de l'ère Covid est derrière nous, l'explosion de la demande en puces surpuissantes pour l'IA (GPU/NPU) crée de nouvelles pressions logistiques en 2026, entraînant une hausse des coûts matériels et Cloud. Face à cette inflation, le rôle du développeur évolue : adopter une démarche d'éco-conception logicielle (Green IT) et coder léger n'est plus seulement écologique, c'est devenu une nécessité économique.
+                                </div>
+                                <div class="d-flex flex-wrap gap-2 mt-3">
+                                    <a href="https://www.01net.com/actualites/puces-electroniques-cet-industriel-francais-confirme-la-penurie-dhelium.html" class="btn btn-custom btn-sm" target="_blank" rel="noopener noreferrer">Pénurie d'hélium confirmée</a>
+                                    <a href="https://www.topbiz.fr/blog/topbiz-inside--pourquoi-le-prix-ram-2026-explose-et-comment-s-%C3%A9quiper--n136" class="btn btn-custom btn-sm" target="_blank" rel="noopener noreferrer">Prix RAM 2026</a>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT -->
+        <section id="contact" class="section-padding animate-fade">
+            <div class="text-center w-100">
+                <div class="section-title">
+                    <h2>Contact</h2>
+                </div>
+            </div>
+            <div class="text-center d-flex flex-wrap justify-content-center gap-2">
+                <a href="https://www.linkedin.com/in/badis-haddadi" class="btn btn-custom" target="_blank" rel="noopener noreferrer">
+                    <i class="fab fa-linkedin" aria-hidden="true"></i> LinkedIn
+                </a>
+                <a href="mailto:badis.haddadi@yahoo.fr" class="btn btn-custom">
+                    <i class="fas fa-envelope" aria-hidden="true"></i> Email
+                </a>
+                <a href="https://github.com/BadisProjet" class="btn btn-custom btn-custom--github" target="_blank" rel="noopener noreferrer">
+                    <i class="fab fa-github" aria-hidden="true"></i> GitHub
+                </a>
+            </div>
+        </section>
+
+    </div><!-- /.content-wrapper -->
+
+    <div class="sidebar-footer">
+        <span class="sidebar-footer__text">© 2026 Badis Haddadi</span>
+    </div>
+
+</div><!-- /.main-container -->
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="assets/js/site-nav.js" defer></script>
+</body>
+</html>
